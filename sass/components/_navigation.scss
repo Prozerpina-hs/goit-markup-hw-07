@@ -10,6 +10,7 @@
     display: block;
     margin-right: 50px;
     }
+
     &__list:last-child {
     margin-right: 0;
     }
@@ -29,7 +30,7 @@
     letter-spacing: 0.02em;
     }
 
-    &__list .navi__link.current {
+    &__list &__link.current {
     color: var(--nav-color);
     }
 
