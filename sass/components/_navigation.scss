@@ -1,17 +1,16 @@
 .navigation {
     display: flex;
     align-items: center;
-}
-
-.navi {
-    display: flex;
 
     &__list {
+    display: flex;
+    }
+    &__list-item {
     display: block;
     margin-right: 50px;
     }
 
-    &__list:last-child {
+    &__list-item:last-child {
     margin-right: 0;
     }
 
@@ -30,7 +29,7 @@
     letter-spacing: 0.02em;
     }
 
-    &__list &__link.current {
+    &__list-item &__link.current {
     color: var(--nav-color);
     }
 
