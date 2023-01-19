@@ -5,6 +5,8 @@
 }
 
 body {
+    // margin-left: 0;
+    // margin-right: 0;
     color: var(--secondary-text-color);
     font-family: "Roboto", sans-serif;
     background-color: var(--main-white-color);
@@ -35,7 +37,7 @@ img {
     max-width: 100%;
     height: auto;
     margin-right: 0;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .visually-hidden {

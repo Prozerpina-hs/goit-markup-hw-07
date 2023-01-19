@@ -47,8 +47,8 @@ img {
   max-width: 100%;
   height: auto;
   margin-right: 0;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .visually-hidden {
@@ -614,10 +614,9 @@ img {
 
 /* Шапка */
 /* Лого */
-.header__border {
+.header {
   border-bottom: 1px solid #ECECEC;
 }
-
 .header__flex {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,10 +1,10 @@
 /* Шапка */
 /* Лого */
-.header__border {
+.header {
     border-bottom: 1px solid #ECECEC;
-}
 
-.header__flex {
+    &__flex {
     display: flex;
     justify-content: space-between;
+    }
 }
